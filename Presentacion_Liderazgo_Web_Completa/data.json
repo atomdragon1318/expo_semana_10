@@ -1,0 +1,288 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "title": "Un equipo brillante también puede fallar",
+      "owner": "Guillermo",
+      "chapter": "APERTURA",
+      "script": "Buenos días. No vamos a recitar tres artículos por separado. Queremos responder una pregunta que importa en ingeniería de software: si una empresa contrata buenos programadores, arquitectos y líderes, ¿por qué todavía puede tener entregas lentas y problemas de coordinación? Primero explicaremos los modelos de los autores y luego revisaremos tres casos reales con un inicio, una intervención y resultados. Cerraremos cada caso diciendo qué concepto se observa y qué no podemos concluir de los datos. Así podremos distinguir rendimiento real de una opinión atractiva sobre liderazgo.",
+      "bridge": "Para medir el problema, empecemos por una investigación sobre el rendimiento percibido de los equipos.",
+      "limits": "El título plantea una pregunta, no afirma que los casos experimentaran un fracaso total.",
+      "sources": [
+        "HAAS",
+        "BLANCHARD",
+        "BOONSTRA"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "La distancia entre trabajar juntos y rendir bien",
+      "owner": "Guillermo",
+      "chapter": "CONTEXTO",
+      "script": "El informe High Performance Teams recoge una encuesta a unos 1.300 empleados y directivos. Solo 27 de cada 100 participantes consideraron que sus equipos funcionaban de forma óptima la mayor parte del tiempo; 43 de cada 100 señalaron que lo hacían menos de la mitad del tiempo. Son percepciones de quienes respondieron, no mediciones directas de velocidad de desarrollo ni una encuesta exclusiva de empresas peruanas. El mismo informe destaca la falta de rendición de cuentas entre compañeros como principal obstáculo percibido y la confianza como principal factor asociado al esfuerzo. Aquí aparece nuestro problema: colaborar requiere más que juntar profesionales.",
+      "bridge": "¿Qué condiciones reducen esa fricción? Haas y Mortensen proporcionan el primer marco.",
+      "limits": "No decir que 73 % de empresas fracasaron ni que 60 % de proyectos de software fallan.",
+      "sources": [
+        "BLANCHARD"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Haas y Mortensen: cuatro condiciones para colaborar",
+      "owner": "Guillermo",
+      "chapter": "TEORÍA I",
+      "script": "Haas y Mortensen señalan que los equipos modernos son diversos, dispersos, digitales y dinámicos. Eso permite aprovechar especialidades y trabajar desde distintos lugares, pero añade riesgo de subgrupos enfrentados e información incompleta. Proponen cuatro condiciones: una dirección que dé sentido a la tarea; una estructura con la combinación adecuada de personas, tareas y normas; un contexto de apoyo, con información, capacitación y recursos; y una mentalidad compartida que permita verse como un solo equipo. En software, esto se parece a que producto, diseño, frontend, backend y operaciones compartan objetivo y responsabilidades claras.",
+      "bridge": "Ahora veremos qué ocurre cuando una entidad financiera intenta eliminar los silos entre esas áreas.",
+      "limits": "Es un marco de análisis; no implica que cualquier organización que adopte squads obtenga automáticamente resultados.",
+      "sources": [
+        "HAAS"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "ING: clientes digitales, organización fragmentada",
+      "owner": "Guillermo",
+      "chapter": "CASO ING — PROBLEMA",
+      "script": "Haas y Mortensen (2016) advierten sobre las barreras entre subgrupos. En ING, la separación por áreas dificultaba la coordinación y la respuesta al cliente digital. ING lanzó la transformación en 2015 para responder mejor a clientes acostumbrados a experiencias digitales inmediatas y coherentes entre canales. El banco tenía un desempeño financiero razonable. Los carriles del gráfico representan las transferencias y esperas entre áreas; son un esquema docente, no un organigrama del banco.",
+      "bridge": "La intervención buscó cambiar tanto la estructura como la autonomía de las personas.",
+      "limits": "No decir que ING estaba quebrado o que todas sus áreas carecían de coordinación. Los autores no diagnosticaron esta transformación de ING.",
+      "sources": [
+        "ING",
+        "HAAS"
+      ],
+      "interpretation": "Haas y Mortensen (2016) advierten sobre las barreras entre subgrupos. En ING, la separación por áreas dificultaba la coordinación y la respuesta al cliente digital."
+    },
+    {
+      "id": 5,
+      "title": "ING cambió la forma de organizar el trabajo",
+      "owner": "Guillermo",
+      "chapter": "CASO ING — INTERVENCIÓN",
+      "script": "Haas y Mortensen (2016) destacan la importancia de una estructura sólida. ING siguió un enfoque similar al reunir especialidades en squads con responsabilidad sobre el resultado para el cliente. Los squads definían su propósito y cómo medirían su impacto, y se coordinaban mediante tribes. También aplicaron DevOps y pruebas continuas. Los ejecutivos describieron unos 350 squads de nueve personas en 13 tribes, en el alcance de la entrevista de 2017. El esquema resume propósito, estructura, coordinación y apoyo técnico. DevOps representa solo una parte del contexto de apoyo; no verifica todas las condiciones del modelo.",
+      "bridge": "¿Qué resultado reportó la organización después de implementar ese modelo?",
+      "limits": "La relación académica no implica adopción declarada del modelo por ING ni prueba de que una condición aislada causara la mejora. DevOps no acredita por sí solo todo el contexto de apoyo. El alcance del caso no representa toda ING mundial; el diagrama es una simplificación docente.",
+      "sources": [
+        "ING",
+        "HAAS"
+      ],
+      "interpretation": "Haas y Mortensen (2016) destacan la importancia de una estructura sólida. ING siguió un enfoque similar al reunir especialidades en squads con responsabilidad sobre el resultado para el cliente."
+    },
+    {
+      "id": 6,
+      "title": "ING: de grandes lanzamientos a entregas frecuentes",
+      "owner": "Guillermo",
+      "chapter": "CASO ING — RESULTADOS",
+      "script": "En una entrevista de enero de 2017, los ejecutivos de ING contrastaron cinco o seis grandes lanzamientos anuales con una cadencia de software cada dos o tres semanas. La operación pasó a publicar cambios de manera mucho más frecuente. También reportaron avances en satisfacción y compromiso, pero sin dar allí porcentajes que podamos representar en barras. Es importante evitar una comparación tramposa: un gran lanzamiento y una publicación incremental no tienen el mismo tamaño, por eso no calcularemos un multiplicador exacto de productividad ni retorno financiero. Sí podemos concluir que la organización reportó una mejora importante en su capacidad de entregar cambios con frecuencia.",
+      "bridge": "Ahora separamos lo observado del modelo que nos permite interpretarlo.",
+      "limits": "Cadencia no es productividad ni beneficio neto; no convertir intervalos en multiplicadores causales.",
+      "sources": [
+        "ING"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "¿Qué explica la mejora de ING?",
+      "owner": "Guillermo",
+      "chapter": "CASO ING — REFLEXIÓN",
+      "script": "Boonstra (2018) destaca un liderazgo que facilita la iniciativa. En ING, la autonomía de los squads y la reducción de burocracia ilustran esta forma de organizar el trabajo. El mapa reúne las relaciones entre propósito, estructura, mentalidad compartida y apoyo técnico. ING combinó cambios organizativos y tecnológicos; los datos no permiten aislar el efecto de cada decisión. El aprendizaje práctico es definir valor para el usuario, reducir transferencias innecesarias y medir resultados reales.",
+      "bridge": "Pero un nuevo modelo organizativo no transforma instantáneamente a las personas. ¿Cómo evoluciona un equipo?",
+      "limits": "Las relaciones del diagrama son interpretativas, no flechas causales. Haas y Mortensen no evaluaron este caso. No se puede atribuir la cadencia a una condición o al liderazgo de manera aislada.",
+      "sources": [
+        "HAAS",
+        "BOONSTRA",
+        "ING"
+      ],
+      "interpretation": "Boonstra (2018) destaca un liderazgo que facilita la iniciativa. En ING, la autonomía de los squads y la reducción de burocracia ilustran esta forma de organizar el trabajo."
+    },
+    {
+      "id": 8,
+      "title": "Blanchard: un equipo madura en cuatro etapas",
+      "owner": "Guillermo",
+      "chapter": "TEORÍA II",
+      "script": "Blanchard plantea cuatro etapas de desarrollo. En orientación las personas necesitan claridad sobre propósito, normas y roles. Luego suele aparecer insatisfacción: dificultades reales, desacuerdos y dudas sobre el equipo. En integración se construyen confianza y colaboración más fluida. En producción el grupo alcanza mayor autonomía y capacidad de resolver problemas. Cada fase requiere un comportamiento diferente del líder. Atención: estas etapas son un modelo para diagnosticar el desarrollo de equipos, no una historia demostrada de ING o BCP. En nuestro siguiente caso las usaremos para plantear preguntas de gestión, sin afirmar que la empresa recorrió exactamente esos pasos.",
+      "bridge": "Veamos una transformación tecnológica en Perú y comprobemos qué decisiones fueron reportadas.",
+      "limits": "Las curvas son conceptuales; sin datos longitudinales no presentar como medición de una empresa.",
+      "sources": [
+        "BLANCHARD"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "BCP: el reto de entregar software con mayor velocidad",
+      "owner": "Guillermo",
+      "chapter": "CASO BCP — PROBLEMA",
+      "script": "Pasamos al Perú. El BCP reportó esfuerzos de transformación tecnológica ante la necesidad de entregar soluciones digitales con mayor rapidez y mantener controles de seguridad. En una entrevista patrocinada de Forbes Perú, una líder de DevSecOps explicó que en el proceso analizado el despliegue tomaba antes 45 días. Esta es una cifra comunicada por el banco, no una medición independiente. Nuestra pregunta es: ¿cómo se puede reducir ese ciclo sin limitarse a exigir que los ingenieros trabajen más horas? En lugar de inventar errores o pérdidas, observaremos las intervenciones que el banco sí reporta.",
+      "bridge": "Con ello llega el cambio de expositor: vamos del problema a las decisiones y resultados.",
+      "limits": "No confundir despliegue con todo el ciclo de creación de una funcionalidad ni atribuir manualidad exacta a todas las etapas.",
+      "sources": [
+        "BCP_FORBES",
+        "BCP_MEM"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "BCP: transformación de procesos, estructura y capacidades",
+      "owner": "Leonardo",
+      "chapter": "CASO BCP — INTERVENCIÓN",
+      "script": "Continúo con lo que hizo BCP. Su memoria integrada de 2025 cuenta que el aprendizaje en agilidad comenzó con pilotos de innovación y tecnología, y que desde 2018 se extendió a nivel organizacional. Una entrevista del banco sitúa la implementación de DevSecOps desde 2019, con prácticas para automatizar y asegurar el desarrollo de software. En 2025 reportó 47 tribus o unidades y 19 centros de excelencia. Además, inició Agilidad 2.0 para mejorar gestión por valor, evaluación del rendimiento de los equipos y modelos operativos. La intervención, por tanto, no fue solo adquirir una herramienta: combinó capacidades técnicas, procesos y organización.",
+      "bridge": "Ahora veremos el cambio temporal de despliegues reportado por su área técnica.",
+      "limits": "No suponer que 47 tribus equivalen a 47 equipos Scrum homogéneos.",
+      "sources": [
+        "BCP_MEM",
+        "BCP_FORBES"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "BCP: de 45 a 4 días para desplegar software",
+      "owner": "Leonardo",
+      "chapter": "CASO BCP — RESULTADO 1",
+      "script": "En diciembre de 2024, una portavoz del BCP dijo que habían reducido el tiempo de despliegue de 45 a cuatro días tras adoptar DevSecOps. Matemáticamente, la diferencia representa aproximadamente un 91,1 % menos tiempo respecto al valor inicial. La entrevista expresaba una reducción de más del 80 %, lo que no contradice nuestro cálculo a partir de los extremos publicados. Esta métrica es del proceso de despliegue descrito por su equipo y no debe confundirse con el time to market de toda la organización. Tampoco debemos asignar el 91,1 % solo a liderazgo, porque hubo automatización, pruebas y rediseño del flujo.",
+      "bridge": "¿La transformación también mostró resultados en el rendimiento operativo posterior?",
+      "limits": "Cifra reportada en contenido patrocinado; reducción calculada, no ROI ni productividad de todos los ingenieros.",
+      "sources": [
+        "BCP_FORBES"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "BCP en 2025: más entregas y menor costo operativo",
+      "owner": "Leonardo",
+      "chapter": "CASO BCP — RESULTADO 2",
+      "script": "La Memoria Integrada 2025 del BCP, disponible en la SMV, es una fuente institucional más robusta que una nota promocional. En su página 43 declara una reducción de 21 % en time to market respecto de 2024, un aumento de 33 % en las entregas tecnológicas y una reducción de 12 % en el costo de puesta en producción. También indica que el time to market fue de 29 días en el 70 % de los casos. Son tres indicadores distintos: tiempo, volumen y costo. Una menor duración y costo junto con más entregas sugieren una operación más eficiente, pero no autorizan a calcular el ROI sin conocer inversiones, beneficios atribuibles y costos completos.",
+      "bridge": "¿Qué muestran estos resultados acerca de sostener la mejora más allá del primer cambio?",
+      "limits": "La cifra 29 días no se obtiene aplicando directamente −21 % a los 34 días del año anterior; no mezclar estadísticos.",
+      "sources": [
+        "BCP_MEM"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "¿Qué cambió realmente en el BCP?",
+      "owner": "Leonardo",
+      "chapter": "CASO BCP — REFLEXIÓN",
+      "script": "Haas y Mortensen (2016) destacan la estructura sólida y el contexto de apoyo. Las tribus, los perfiles especializados y los recursos del BCP permiten relacionar estos conceptos con su transformación. Blanchard (2019) propone adaptar el liderazgo al desarrollo del equipo. La formación y el acompañamiento en BCP pueden analizarse desde esta perspectiva. Las memorias de 2024 y 2025 reportan mejoras frente a sus respectivos años anteriores. Esto muestra continuidad, sin convertir métricas distintas en una serie homogénea ni demostrar que el banco recorriera las cuatro etapas del modelo. La conclusión práctica es mejorar el sistema de trabajo y sostener el desarrollo de capacidades.",
+      "bridge": "Nos falta examinar qué es liderazgo cuando el problema está dentro del proceso técnico.",
+      "limits": "No equiparar las variaciones porcentuales de diferentes períodos como una sola serie homogénea. Los datos no demuestran que BCP recorriera las cuatro etapas de Blanchard ni permiten aislar el aporte de cada cambio.",
+      "sources": [
+        "HAAS",
+        "BLANCHARD",
+        "BCP_2024",
+        "BCP_MEM",
+        "BCP_FORBES"
+      ],
+      "interpretation": "Haas y Mortensen (2016) destacan la estructura sólida y el contexto de apoyo. Las tribus, los perfiles especializados y los recursos del BCP permiten relacionar estos conceptos con su transformación. Blanchard (2019) propone adaptar el liderazgo al desarrollo del equipo. La formación y el acompañamiento en BCP pueden analizarse desde esta perspectiva."
+    },
+    {
+      "id": 14,
+      "title": "Boonstra: dirigir y liderar se complementan",
+      "owner": "Leonardo",
+      "chapter": "TEORÍA III",
+      "script": "Boonstra cuestiona que el líder tenga que ser un héroe o necesariamente un jefe formal. Distingue funciones de dirección, necesarias para mantener estabilidad, resultados y responsabilidad, y liderazgo, que permite explorar, innovar y dar sentido al cambio. En ingeniería de software ambas son necesarias: no podemos improvisar cambios en producción sin controles, pero tampoco podemos aceptar procesos obsoletos solo porque están documentados. Lo relevante es crear capacidad en el equipo para identificar cuellos de botella y mejorar, conservando responsabilidad por la calidad y la seguridad. Vamos a verlo en una intervención técnica concreta.",
+      "bridge": "El problema de Etsy no era el talento individual, sino la manera de poner cambios en producción.",
+      "limits": "No decir que Boonstra investigó Etsy ni atribuirle conceptos exclusivos de DevOps.",
+      "sources": [
+        "BOONSTRA"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Etsy: desplegar una mejora exigía demasiada coordinación",
+      "owner": "Leonardo",
+      "chapter": "CASO ETSY — PROBLEMA",
+      "script": "Etsy documentó en su propio blog técnico cómo era antes una publicación de software. Un despliegue típico requería tres desarrolladores, una persona de operaciones y otros compañeros atentos por si algo fallaba. Incluso cuando el proceso transcurría bien, podía llevar más de una hora. Este ejemplo sirve para diferenciar talento de diseño del sistema de trabajo: no hace falta que las personas sean incompetentes para que un proceso sea lento. El problema era la cantidad de pasos, la coordinación requerida y las excepciones que podían producir errores o retrasos.",
+      "bridge": "¿Qué hizo el equipo para reducir esas dependencias?",
+      "limits": "Caso histórico de 2010, no reflejo necesariamente actual de Etsy.",
+      "sources": [
+        "ETSY"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Deployinator: convertir el despliegue en un proceso repetible",
+      "owner": "Leonardo",
+      "chapter": "CASO ETSY — INTERVENCIÓN",
+      "script": "Boonstra (2018) plantea que dirección y liderazgo se complementan. En Etsy, estandarizar el despliegue con Deployinator ilustra cómo combinar controles claros con mejoras en la forma de trabajar. En 2010, la compañía explicó que la herramienta simplificaba la publicación, registraba los cambios, avisaba al equipo y facilitaba la verificación. La intervención incluyó revisar requisitos y eliminar pasos y dependencias innecesarias. La herramienta por sí sola no demuestra un modelo específico de liderazgo.",
+      "bridge": "Esa modificación sí vino acompañada de una medida antes y después.",
+      "limits": "No afirmar que Deployinator por sí solo demuestra un modelo específico de liderazgo. Boonstra no estudió Etsy.",
+      "sources": [
+        "ETSY",
+        "BOONSTRA"
+      ],
+      "interpretation": "Boonstra (2018) plantea que dirección y liderazgo se complementan. En Etsy, estandarizar el despliegue con Deployinator ilustra cómo combinar controles claros con mejoras en la forma de trabajar."
+    },
+    {
+      "id": 17,
+      "title": "Etsy: más de una hora se convirtió en menos de dos minutos",
+      "owner": "Leonardo",
+      "chapter": "CASO ETSY — RESULTADOS Y REFLEXIÓN",
+      "script": "Etsy informó que el tiempo habitual de despliegue cayó de más de una hora a menos de dos minutos. Como el valor inicial es mayor que 60 y el final menor que 2, la reducción proporcional fue superior a 96,7 %, a partir de los límites publicados. El número de personas que ejecutaban directamente cada despliegue pasó de cuatro a una. Eso no significa que despidieran tres ingenieros: significa que la tarea requería menos coordinación inmediata. El resultado refuerza el aprendizaje del caso: revisar el proceso puede reducir la coordinación necesaria para ejecutar una tarea. No conocemos un ROI financiero atribuible.",
+      "bridge": "Terminemos integrando lo aprendido en una regla práctica para proyectos de software.",
+      "limits": "Los tiempos son desigualdades, no valores exactos de 60 y 2; la mejora >96,7 % es un cálculo de límites. Los datos no aíslan el efecto del liderazgo ni permiten calcular ROI.",
+      "sources": [
+        "ETSY",
+        "BOONSTRA",
+        "HAAS"
+      ],
+      "interpretation": "Haas y Mortensen (2016) destacan la estructura y el apoyo al equipo. El rediseño del despliegue de Etsy permite analizar estos conceptos en una tarea concreta."
+    },
+    {
+      "id": 18,
+      "title": "La lección: mejorar el sistema de trabajo, no exigir héroes",
+      "owner": "Leonardo",
+      "chapter": "CIERRE",
+      "script": "Concluimos con una propuesta aplicable. Un gerente de proyectos de software debe empezar definiendo qué valor quiere entregar al usuario, diseñar un equipo con responsabilidades y recursos adecuados, desarrollar capacidades y confianza, y eliminar los obstáculos que ralentizan el trabajo. ING mostró una entrega de cambios más frecuente tras rediseñar su organización; BCP reportó mejoras en tiempo, volumen de entregas y costo; Etsy documentó una reducción muy marcada de su proceso de despliegue. Ningún caso demuestra por sí solo que una teoría causara toda la mejora. Pero juntos ayudan a explicar por qué liderazgo, estructura y aprendizaje importan tanto para conseguir resultados sostenibles. Muchas gracias.",
+      "bridge": "Abrir preguntas; acceso a bibliografía completa en la web y una diapositiva de respaldo no presentada.",
+      "limits": "No decir que estos casos constituyen ensayo controlado ni que permiten calcular rentabilidad neta.",
+      "sources": [
+        "HAAS",
+        "BLANCHARD",
+        "BOONSTRA",
+        "ING",
+        "BCP_MEM",
+        "ETSY"
+      ]
+    }
+  ],
+  "sources": {
+    "BLANCHARD": {
+      "label": "BLANCHARD · 2019 · PP. 1–7",
+      "description": "The Ken Blanchard Companies (2019). High Performance Teams: What It Takes to Make Them Work. Material del curso; figuras 1–4.",
+      "url": ""
+    },
+    "HAAS": {
+      "label": "HAAS & MORTENSEN · 2016 · HBR",
+      "description": "Martine Haas y Mark Mortensen (2016). The Secrets of Great Teamwork. Harvard Business Review, junio. Páginas de la copia PDF del proyecto (13 páginas, impresión de la web): dirección convincente, p. 3; estructura sólida, pp. 3–6; contexto de apoyo, pp. 6–7; mentalidad compartida, pp. 7–10; riesgos de subgrupos e información incompleta, pp. 2 y 7–9. No es la paginación de la revista.",
+      "url": "https://hbr.org/2016/06/the-secrets-of-great-teamwork"
+    },
+    "BOONSTRA": {
+      "label": "BOONSTRA · 2018 · HARVARD DEUSTO",
+      "description": "Jaap Boonstra (2018). Perspectivas sobre el liderazgo. Harvard Deusto Business Review, núm. 282, pp. 8–21.",
+      "url": ""
+    },
+    "ING": {
+      "label": "ING / MCKINSEY · 2017",
+      "description": "McKinsey & Company (10 de enero de 2017). ING’s agile transformation. Entrevista a Bart Schlatmann y Peter Jacobs, ejecutivos de ING. Evidencia empresarial sobre squads, propósito, coordinación, DevOps y cadencia de publicación.",
+      "url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/ings-agile-transformation"
+    },
+    "BCP_MEM": {
+      "label": "BCP · MEMORIA INTEGRADA 2025 · P. 43",
+      "description": "BCP. Memoria Integrada 2025, p. 43; presentada a la SMV. https://www.smv.gob.pe/ConsultasP8/temp/Memoria%20Integrada%20BCP%202025.pdf",
+      "url": "https://www.smv.gob.pe/ConsultasP8/temp/Memoria%20Integrada%20BCP%202025.pdf"
+    },
+    "BCP_FORBES": {
+      "label": "BCP / FORBES PERÚ · ENTREVISTA PATROCINADA · 2024",
+      "description": "Forbes Perú (2024). BCP pionero en Perú en el uso de IA generativa para desarrollar software. Contenido patrocinado. https://forbes.pe/brand-voice/2024-12-11/bcp-pionero-en-peru-en-el-uso-de-ia-generativa-para-desarrollar-software/",
+      "url": "https://forbes.pe/brand-voice/2024-12-11/bcp-pionero-en-peru-en-el-uso-de-ia-generativa-para-desarrollar-software/"
+    },
+    "ETSY": {
+      "label": "ETSY ENGINEERING · 2010",
+      "description": "Erik Kastner (2010). Quantum of Deployment. Etsy Engineering. https://www.etsy.com/codeascraft/quantum-of-deployment",
+      "url": "https://www.etsy.com/codeascraft/quantum-of-deployment"
+    },
+    "BCP_2024": {
+      "label": "BCP · MEMORIA INTEGRADA 2024",
+      "description": "BCP (2024). Memoria Integrada 2024. https://financialfilings.com/filings/banco-de-credito-del-peru/annual-report/2025/49264930/",
+      "url": "https://financialfilings.com/filings/banco-de-credito-del-peru/annual-report/2025/49264930/"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "version": "0.1-research",
+  "fecha_corte": "2026-10-29",
+  "nota": "Cifras respaldadas documentalmente; no confundir métricas ni inferir causalidad exclusiva.",
+  "indicadores": [
+    {
+      "id": "blanchard_optimo_mayoria",
+      "caso": "Blanchard",
+      "valor": 27,
+      "unidad": "porcentaje de encuestados",
+      "periodo": "estudio citado en informe 2019",
+      "clase": "percepcion",
+      "source": "High Performance Teams.pdf p.2"
+    },
+    {
+      "id": "blanchard_optimo_menos_mitad",
+      "caso": "Blanchard",
+      "valor": 43,
+      "unidad": "porcentaje de encuestados",
+      "periodo": "estudio citado en informe 2019",
+      "clase": "percepcion",
+      "source": "High Performance Teams.pdf p.2"
+    },
+    {
+      "id": "blanchard_apoyo_total",
+      "caso": "Blanchard",
+      "valor": 29,
+      "unidad": "porcentaje acuerdo/muy acuerdo",
+      "periodo": "encuesta 2019",
+      "clase": "comparacion_grupos",
+      "source": "High Performance Teams.pdf fig.4 p.5"
+    },
+    {
+      "id": "blanchard_apoyo_alto",
+      "caso": "Blanchard",
+      "valor": 62,
+      "unidad": "porcentaje acuerdo/muy acuerdo",
+      "periodo": "encuesta 2019",
+      "clase": "comparacion_grupos",
+      "source": "High Performance Teams.pdf fig.4 p.5"
+    },
+    {
+      "id": "bcp_devsecops_antes",
+      "caso": "BCP",
+      "valor": 45,
+      "unidad": "dias por proceso de despliegue reportado",
+      "periodo": "antes de transformación 2019-2024",
+      "clase": "antes_despues_reportado",
+      "source": "https://forbes.pe/brand-voice/2024-12-11/bcp-pionero-en-peru-en-el-uso-de-ia-generativa-para-desarrollar-software/",
+      "nota": "contenido patrocinado; diferente de time to market"
+    },
+    {
+      "id": "bcp_devsecops_despues",
+      "caso": "BCP",
+      "valor": 4,
+      "unidad": "dias por proceso de despliegue reportado",
+      "periodo": "2024",
+      "clase": "antes_despues_reportado",
+      "source": "https://forbes.pe/brand-voice/2024-12-11/bcp-pionero-en-peru-en-el-uso-de-ia-generativa-para-desarrollar-software/",
+      "nota": "contenido patrocinado; diferente de time to market"
+    },
+    {
+      "id": "bcp_2025_ttm_reduccion",
+      "caso": "BCP",
+      "valor": 21,
+      "unidad": "porcentaje de reducción",
+      "periodo": "2025 vs 2024",
+      "clase": "reporte_institucional",
+      "source": "https://financialfilings.com/filings/banco-de-credito-del-peru/annual-report/2026/49282356/"
+    },
+    {
+      "id": "bcp_2025_entregas_aumento",
+      "caso": "BCP",
+      "valor": 33,
+      "unidad": "porcentaje de incremento",
+      "periodo": "2025 vs 2024",
+      "clase": "reporte_institucional",
+      "source": "https://financialfilings.com/filings/banco-de-credito-del-peru/annual-report/2026/49282356/"
+    },
+    {
+      "id": "bcp_2025_costo_reduccion",
+      "caso": "BCP",
+      "valor": 12,
+      "unidad": "porcentaje de reducción de costo de puesta en producción",
+      "periodo": "2025 vs 2024",
+      "clase": "reporte_institucional",
+      "source": "https://financialfilings.com/filings/banco-de-credito-del-peru/annual-report/2026/49282356/"
+    },
+    {
+      "id": "ing_lanzamientos_antes_min",
+      "caso": "ING",
+      "valor": 5,
+      "unidad": "grandes lanzamientos/año",
+      "periodo": "antes de 2015",
+      "clase": "cambio_de_cadencia",
+      "source": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/ings-agile-transformation",
+      "nota": "intervalo reportado 5-6"
+    },
+    {
+      "id": "ing_lanzamientos_despues_semanas_min",
+      "caso": "ING",
+      "valor": 2,
+      "unidad": "semanas entre lanzamientos",
+      "periodo": "tras transformación 2015-2017",
+      "clase": "cambio_de_cadencia",
+      "source": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/ings-agile-transformation",
+      "nota": "intervalo reportado 2-3 semanas; no comparable directamente en tamaño de release"
+    },
+    {
+      "id": "etsy_antes_minutos_min",
+      "caso": "Etsy",
+      "valor": 60,
+      "unidad": "minutos por despliegue",
+      "periodo": "antes",
+      "clase": "antes_despues_reportado",
+      "source": "https://www.etsy.com/codeascraft/quantum-of-deployment",
+      "nota": "mayor que 60"
+    },
+    {
+      "id": "etsy_despues_minutos_max",
+      "caso": "Etsy",
+      "valor": 2,
+      "unidad": "minutos por despliegue",
+      "periodo": "después de Deployinator, 2010",
+      "clase": "antes_despues_reportado",
+      "source": "https://www.etsy.com/codeascraft/quantum-of-deployment",
+      "nota": "menor que 2"
+    }
+  ]
+}
