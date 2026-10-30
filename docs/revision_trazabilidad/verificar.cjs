@@ -1,5 +1,5 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
-const dir=require('path').resolve(__dirname,'../Presentacion_Liderazgo_Web_Completa');
+const dir=require('path').resolve(__dirname,'../..');
 const html=fs.readFileSync(dir+'/index.html','utf8');
 class Element {
  constructor(id=''){this.id=id;this.events={};this.attrs={};this.classes=new Set();this.inert=false;this.hidden=false;this.style={};this.dataset={};this.textContent='';this._html='';this.disabled=false;this.tagName='BUTTON';this.classList={contains:c=>this.classes.has(c),add:c=>this.classes.add(c),remove:c=>this.classes.delete(c),toggle:(c,on)=>{on=on??!this.classes.has(c);on?this.classes.add(c):this.classes.delete(c);return on}};}
